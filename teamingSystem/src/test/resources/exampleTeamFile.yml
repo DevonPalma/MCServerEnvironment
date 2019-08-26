@@ -1,0 +1,27 @@
+teams:
+  <team-id>:
+    <role>:
+      permissions:
+      - <permission>
+      users:
+      - <player uuid>
+      
+      
+teams:
+  t000:
+    owner:
+      permissions:
+      - team.invite
+      - team.abandon
+      users:
+      - owner of team
+    assistant:
+      permissions:
+      - team.invite
+      users:
+      - ex user 0
+    member:
+      permissions:
+      users:
+      - ex user 1
+      - ex user 2

@@ -1,0 +1,9 @@
+name: ${name}
+version: ${version}
+main: ${groupId}.${artifactId}.${name}
+
+# STARTUP or POSTWORLD
+# load:
+
+author: Nervous
+api-version: 1.14
